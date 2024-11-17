@@ -1,0 +1,66 @@
+/* assets/css/frontend.css */
+
+.expired-content-message {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.expiry-countdown {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.expiry-countdown.urgent {
+    background: #ffebee;
+    border-left-color: #f44336;
+}
+
+.related-posts {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.related-posts h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.related-posts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-posts li {
+    margin-bottom: 10px;
+}
+
+.related-posts a {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.related-posts a:hover {
+    text-decoration: underline;
+}
+
+.widget_content_expiry_countdown {
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.widget_content_expiry_countdown .widget-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
